@@ -4,7 +4,14 @@ namespace iut;
 
 interface InfoSecheresseService
 {
-    public function dureeSecheresse() : int;
+    /**
+     * retourne une prévision du nombre de jours sans pluie à venir
+     */
+    public function previsionDureeSecheresse() : int;
+
+    /**
+     * retourne l'état des réserves d'eau potable du village (en m3)
+     */
     public function reserveEauMunicipale() : double;
 }
 

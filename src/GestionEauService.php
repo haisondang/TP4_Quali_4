@@ -1,12 +1,12 @@
 namespace iut;
 use InfoSecheresseService;
-use MediaService;
+use EtatService;
 use MunicipalServices;
 
 class GestionEauService
 {
 
-    function __construct(InfoSecheresseService infoSecheresse, MediaService media, MunicipalServices servicesMunicipaux) {
+    function __construct(InfoSecheresseService infoSecheresse, EtatService serviceEtat, MunicipalServices servicesMunicipaux) {
     }
 
     public function checkEtatSecheresse() {
