@@ -1,0 +1,29 @@
+{
+  "name": "iut/php-mock-secheresse",
+  "description": "Shell project for PHP testing",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ludo Pradel",
+      "email": "ludo.pradel@protonmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3||^8.0",
+    "phpunit/phpunit": "^8"
+  },
+  "require-dev": {
+    "mockery/mockery": "1.4.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "iut\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev"
+}
