@@ -14,7 +14,7 @@ interface MunicipalServices
      * Appelle un service de livraison d'eau par camion citernes
      * @throws CiterneVideException lorsque les citernes ne peuvent plus livrer d'eau
      */
-    public function callLivraisonCiterneEau();
+    public function callLivraisonCiterneEau() ;
 }
 
 ?>
